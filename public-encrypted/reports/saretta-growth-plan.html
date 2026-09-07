@@ -83,6 +83,9 @@
   .spark polyline{fill:none;stroke:var(--teal);stroke-width:2;vector-effect:non-scaling-stroke}
   .spark circle{fill:var(--teal)}
   .spark-cap{font-size:10.5px;color:var(--muted);margin-top:2px;letter-spacing:.04em}
+  .spark-vals{display:flex;justify-content:space-between;align-items:baseline;margin-top:3px;
+    font-size:10px;font-weight:700;color:var(--text-2);font-variant-numeric:tabular-nums}
+  .spark-vals .yrs{font-weight:600;color:var(--muted);letter-spacing:.04em}
 
   .beats{margin:28px 0 0;counter-reset:beat;display:flex;flex-direction:column}
   .beat{display:grid;grid-template-columns:42px 1fr;gap:16px;padding:15px 0;border-top:1px solid var(--border)}
@@ -164,11 +167,11 @@
   <div class="eyebrow"><span class="pg">02 / 11</span><span>Where you are · the five numbers</span></div>
   <h2>Five numbers drive the profit.<br><em>Four of them move without buying more traffic.</em></h2>
   <div class="ladder">
-    <div class="rung"><div class="amt">109,818</div><div class="item">Visits</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 26.5,21.0 50.0,19.4 73.5,18.6 97.0,11.3"/><circle cx="97.0" cy="11.3" r="2.4"/></svg><div class="spark-cap">yearly '22-'26</div></div>
-    <div class="rung"><div class="amt">× 1.15%</div><div class="item">Buy on a visit</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,11.6 65.7,13.7 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-cap">yearly '23-'26</div></div>
-    <div class="rung"><div class="amt">1,262</div><div class="item">Orders</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,11.8 65.7,13.8 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-cap">yearly '23-'26</div></div>
-    <div class="rung"><div class="amt">× $191</div><div class="item">Average order</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,18.9 34.3,21.0 65.7,14.1 97.0,3.0"/><circle cx="97.0" cy="3.0" r="2.4"/></svg><div class="spark-cap">yearly '23-'26</div></div>
-    <div class="rung top"><div class="amt">$241k</div><div class="item">Revenue</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,13.6 65.7,14.1 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-cap">yearly '23-'26</div></div>
+    <div class="rung"><div class="amt">109,818</div><div class="item">Visits</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 26.5,21.0 50.0,19.4 73.5,18.6 97.0,11.3"/><circle cx="97.0" cy="11.3" r="2.4"/></svg><div class="spark-vals"><span>120K</span><span class="yrs">'22-'26</span><span>112K</span></div></div>
+    <div class="rung"><div class="amt">× 1.15%</div><div class="item">Buy on a visit</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,11.6 65.7,13.7 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-vals"><span>2.3%</span><span class="yrs">'23-'26</span><span>0.9%</span></div></div>
+    <div class="rung"><div class="amt">1,262</div><div class="item">Orders</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,11.8 65.7,13.8 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-vals"><span>2.4K</span><span class="yrs">'23-'26</span><span>959</span></div></div>
+    <div class="rung"><div class="amt">× $191</div><div class="item">Average order</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,18.9 34.3,21.0 65.7,14.1 97.0,3.0"/><circle cx="97.0" cy="3.0" r="2.4"/></svg><div class="spark-vals"><span>$165</span><span class="yrs">'23-'26</span><span>$195</span></div></div>
+    <div class="rung top"><div class="amt">$241k</div><div class="item">Revenue</div><svg class="spark" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="3.0,3.0 34.3,13.6 65.7,14.1 97.0,21.0"/><circle cx="97.0" cy="21.0" r="2.4"/></svg><div class="spark-vals"><span>$397K</span><span class="yrs">'23-'26</span><span>$187K</span></div></div>
   </div>
   <p class="ladder-note">Box figures: 12 months to Aug 2026. Sparklines: calendar years from your analytics - traffic flat while conversion, orders and revenue fall from the 2023 peak ($397k) and average order rises. E-commerce tracking complete from 2023; 2026 annualised from Jan-Aug.</p>
   <div class="fixlist">
